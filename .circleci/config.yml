@@ -4,6 +4,6 @@ jobs:
       docker:
             - image: circleci/ruby:2.5.3
       steps:
-        - run: lscpu
+        - run:lscpu
             name: Install Dependencies
             command: timeout 1m lscpu
